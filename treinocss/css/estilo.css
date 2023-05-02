@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+    background-color: beige;
+}
+h1 {
+    color: chocolate;
+    border: solid black;
+    background-color: azure;
+    border-radius: 10px;
+    margin: 70px 50px 40%;
+}
+/*Podemos declarar a tag margin separadamente, ou tudo junto, deixando o código mais limpo, podemos fazer a mesma coisa com a propriedade padding*/
+h2 {
+    border-left: 5px dotted red ;
+    border-bottom: 10px solid darkblue;
+    margin-top: 40%;
+    margin-left: 67%;
+    padding-left: 23px;
+    padding-top: 58px;
+}
+/*O padding funciona dentro da margem*/
+p {
+    color: aquamarine;
+    text-align: center;
+    line-height: 0.8cm;
+    text-indent: 60px;
+    font-family: 'Dancing Script', cursive;
+}
+/*Sobre a fonte, já possuímos algumas padrões, que rodam em qualquer aparelho*/
+/*Ou podemos pegar alguma fonte sem direitos autorais, porque sim, tem e fazer uma importação, ela deve ser feita no início do documento, logo depois adicionada a tag familia*/
+.exemplo {
+    height: 300px;
+    background-color: lightsalmon;
+    background-image:url("../img/pexels-irina-iriser-1408221.jpg");
+    background-size:cover;
+}
+/*Alguns recursos do background podem ser inseridos juntos, com exceção de tamanhho, e essas coisas mais singulares*/
+/*.classe uma classe se identifica pelo ponto, o nome dela deve colocado no início de uma tag, classe="nomedaclasse"*/
+/*# serve para identificar um id, lembrando que id podem portam qualquer nome, contudo são muito específicos e só podem ser usados uma única vez*/
+/*h1, h2  se quero que os seletores sejam iguais, posso apenas separá-los por vírgula*/
+h3, h4 {
+    color: indigo;
+    text-align: center;
+    font-style: initial;
+    font-size: xx-large;
+    border: 50px solid palevioletred;
+    background-color: darkseagreen;
+    padding: 50px 50px 50px 50px;
+}
+/**/
+.botao {
+    margin-left: 33%;
+    background: green;
+    color: whitesmoke;
+    padding: 30px;
+    text-decoration: none;
+}
+.botao:hover {
+    background: blue;
+}
+.teste {
+    background-color: tomato;
+    height: 300px;
+    width: 150px;
+}
+
+
+

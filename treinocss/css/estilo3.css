@@ -1,0 +1,47 @@
+ul {
+    background: palevioletred;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    padding: 20px;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: aliceblue;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background: plum;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    position: absolute;
+    background: whitesmoke;
+    width: 150px;
+    display: none;
+}
+
+.dropdown-content a {
+    color: blueviolet;
+    display: block;
+    text-align: left;
+    border: 1px solid salmon;
+    opacity: 0.5;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

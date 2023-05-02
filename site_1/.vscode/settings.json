@@ -1,0 +1,12 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 1,
+    "editor.fontSize": 12,
+    "editor.renderLineHighlight": "gutter",
+    "terminal.integrated.fontSize": 12,
+    "editor.formatOnSave": true,
+    "editor.autoIndent": "full",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "liveServer.settings.donotShowInfoMsg": true
+}

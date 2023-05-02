@@ -1,0 +1,115 @@
+/*COMEÇA AQUI OS ESTUDOS DE DISPLAY*/
+/*Display são aqueles que irão pegar toda a extensão da página*/
+
+.bordaa {
+    border: 1px solid red;
+}
+
+P {
+    
+}
+
+#p1 {
+    display: none;
+}
+
+/*DISPLAY NONE - SOME
+DISPLAY BLOCK - BLOCOS
+DISPLAY INLINE - LINHA
+DISLAY BLOCK-INLINE - MISTURA DOS DOIS*/
+
+/*VISIBILITY: Hidden Oculta o item, mas permanece nas configurações*/
+
+/*max-width pode ser usado quando se há a necessidade de uma determinada expansão,porém, se modifica para os variados tipos de aparelho que terão acesso ao site, não criando uma barra de rolagem. */
+
+/*Position:
+position static: é o datado como padrão
+position relative: desloca o elemento tanto para top/bottom/left/right
+usar um margin antes irá empurrar todos os elementos para a coordenada indicada
+position fixed: trava o conteúdo na tela, tal qual o whatsApp que está sempre com o ícon de iniciar conversa, meio que cria esse elemento fixo.
+position absolute: é usada mais quando quereos mexer em blocos dentro de espaços, já que sua posição se dará em respeito ao "pai". Devemos lembrar que esse "pai" deve assumir uma posição que não seja static, já que isso fará o elemento ddo em absolute se mover em relação ao body do elemento, não ao "pai".
+position sticky: usada para literalmente grudar o item na tela, é necessário dar ua posição tal qual o fixed, para informar onde o elemento ficará na tela.
+z-idex: serve para posicionar o que está na frente/ou atrás, idicando de -1/até sabe deus onde, posicionando o elemento
+*/
+
+.pai {
+    display: inline-block;
+    background: chocolate;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.div1 {
+    position: sticky;
+    top: 0;
+    display: inline-block;
+    background: palevioletred;
+    width: 150px;
+    height: 150px;
+
+}
+.div2 {
+    position: absolute;
+    display: inline-block;
+    background: violet;
+    width: 150px;
+    height: 150px;
+}
+
+.div3 {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: inline-block;
+    background: greenyellow;
+    width: 150px;
+    height: 150px;
+}
+
+/*Overflow
+funciona apenas caso haja uma altura
+ele serve para quando há conteúdo demais para lugar específico de menos
+temos os tipos: scroll (barra de rolagem), auto (a barra aparece só se necessário), o hidden (esconde tudo que passe do espaço)
+Também serve para eliminar as barras de rolagem, sejam do eixo y (basta lembrar dos gráficos da época da escola )*/
+
+.ola {
+    border: 1px solid;
+}
+
+.ola img {
+    float: left;
+}
+/*Float faz com que o item se desprenda do "pai" ao qual está contido, literalmente flutuante
+Ao usar overflow: auto basicamente o item antes flutuante permanee em sua essência, porém, volta a estar dentro dos limites do pai ao qual pertencia anteriormente
+Ao usarmos a propriedade clear: both basicamente limpamos e anulamos os comandos anteriores, seguindo o ritmo como se fosse já um novo fluxo de texto ou seja lá o que está sendo usado*/
+
+ul {
+    background: palevioletred;
+    padding: 30px;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    padding: 30px;
+    color: aliceblue;
+}
+
+li a:hover {
+    background: plum;
+    color: black;
+    opacity: .0.5;
+}
+
+
+
+/*A propriedade Opacity vai de 0.0 - 1.0*/
+
+/*COMEÇANDO COM A PROPRIEDADE DROPDOWN
+Ela é responsável por criar as diversas opções que abrem a mais quando passamos por uma propriedade do menu inicial */
+
+
